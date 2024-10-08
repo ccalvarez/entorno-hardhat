@@ -13,7 +13,7 @@ El entorno Hardhat se configuró siguiendo las instrucciones descritas en los si
 
 ## Instrucciones para publicar y verificar el contrato Solidity
 
-1. Instalar las dependencias 
+1. Instalar las dependencias:
 
 ```sh
 $ npm install
@@ -43,7 +43,7 @@ $ npx hardhat vars set ETHERSCAN_API_KEY
 
 Solicitará ingresar la API Key de Etherscan.
 
-5. Desplegar el contrato:
+5. Desplegar y verificar el contrato ```DimSumVault.sol``` en la red de pruebas Sepolia:
 
 ```sh
 $ npx hardhat ignition deploy ignition/modules/DimSumVault.js --network sepolia --verify
