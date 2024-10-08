@@ -49,7 +49,13 @@ Solicitará ingresar la API Key de Etherscan.
 npx hardhat ignition deploy ignition/modules/DimSumVault.js --network sepolia --verify
 ```
 
+6. Borrar de las variables de entorno, su llave privada:
+
+```sh
+npx hardhat vars delete SEPOLIA_PRIVATE_KEY
+```
+   
 
 ## Licencia
 
-Este proyecto cuenta con licencia conforme a los términos de la licencia [MIT](https://github.com/ccalvarez/entorno-hardhat/blob/main/LICENSE).
+[MIT](https://github.com/ccalvarez/entorno-hardhat/blob/main/LICENSE)
