@@ -35,7 +35,7 @@ $ npx hardhat vars set SEPOLIA_PRIVATE_KEY
 
 Solicitará ingresar la clave privada de la wallet.
 
-4. Establecer el valor de la API Key de Etherscan, necesaria para publicar y verificar el contrato en la red de pruebas Sepolia:
+4. Establecer el valor de la API Key de Etherscan, necesaria para publicar y verificar el contrato en la red de pruebas Sepolia. Esta llave se obtiene creando una cuenta en [Etherscan](https://etherscan.io/login), y generando la llave en la sección [API Keys](https://etherscan.io/myapikey). 
 
 ```sh
 $ npx hardhat vars set ETHERSCAN_API_KEY
