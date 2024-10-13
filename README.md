@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Entorno [Hardhat](https://hardhat.org/) configurado para publicar y verificar el contrato Solidity de la bóveda tokenizada ERC-4626 [_Dim Sum Vault_](https://github.com/ccalvarez/dim-sum-vault):rice:, en la red de pruebas Ethereum Sepolia Testnet.
+Entorno [Hardhat](https://hardhat.org/) configurado para publicar y verificar el contrato Solidity de la bóveda tokenizada ERC-4626 [_Dim Sum Vault_](https://github.com/ccalvarez/dim-sum-vault) :rice:, en la red de pruebas Ethereum Sepolia Testnet.
 
 ## Referencias
 
